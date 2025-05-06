@@ -1,0 +1,223 @@
+/* .Sign-up h1 {
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    color: black;
+    width: 100%;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+} */
+
+body {
+    background-color: #d1d5da;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #8daded;
+    padding: 15px 100px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    list-style: none;
+}
+
+.navbar a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar a::after {
+    content: " ";
+    width: 0;
+    height: 3px;
+    background: var(--gradient);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+#menu-icon {
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+.header-btn a {
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.header-btn .Sign-In {
+    background-color: #474fa6;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.header-btn .Sign-In:hover {
+    background-color: rgb(103, 103, 212);
+}
+
+.header-btn .Sign-up {
+    background-color: #474fa6;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.header-btn .Sign-up:hover {
+    background-color: var(--main-color);
+}
+
+.Signup-container {
+    width: 45%;
+    color: black;
+    background-color: #fff;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* border: solid black; */
+}
+
+.Sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 60%;
+    margin: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.name {
+    padding: 10px 34px;
+    border: none;
+    /* border-radius: 0.5rem; */
+    /* background: #7FA1C3; */
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.password {
+    padding: 10px 34px;
+    border: none;
+    /* border-radius: 0.5rem; */
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.email {
+    padding: 10px 34px;
+    border: none;
+    /* border-radius: 0.5rem; */
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.contactnumber {
+    padding: 10px 34px;
+    border: none;
+    /* border-radius: 0.5rem; */
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.confirmpassword {
+    padding: 10px 34px;
+    border: none;
+    /* border-radius: 2rem; */
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.checkbox {
+    padding: 10px 34px;
+    border: none;
+    /* border-radius: 0.5rem; */
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.Button {
+    flex: 1 1 7rem;
+    padding: 10px 34px;
+    border: none;
+    /* border-radius: 0.5rem; */
+    background: chocolate;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-style: bold;
+}
+
+.Button:hover {
+    background: rgb(237, 153, 94);
+}

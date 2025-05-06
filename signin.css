@@ -1,0 +1,172 @@
+                        body {
+                            background-color: #a9c0df;
+                        }
+                        
+                        * {
+                            margin: 0px;
+                            padding: 0px;
+                            left: 0;
+                            top: 0;
+                            box-sizing: border-box;
+                        }
+                        
+                        header {
+                            /* position: fixed; */
+                            width: 100%;
+                            top: 0;
+                            right: 0;
+                            z-index: 1000;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            background: #8daded;
+                            padding: 15px 100px;
+                        }
+                        
+                        .logo img {
+                            width: 40px;
+                        }
+                        
+                        .navbar {
+                            display: flex;
+                        }
+                        
+                        .navbar li {
+                            position: relative;
+                            list-style: none;
+                        }
+                        
+                        .navbar a {
+                            font-size: 1rem;
+                            padding: 10px 20px;
+                            color: var(--text-color);
+                            font-weight: 500;
+                            text-decoration: none;
+                        }
+                        
+                        .navbar a::after {
+                            content: " ";
+                            width: 0;
+                            height: 3px;
+                            background: var(--gradient);
+                            position: absolute;
+                            bottom: -4px;
+                            left: 0;
+                            transition: 0.5s;
+                        }
+                        
+                        .navbar a:hover::after {
+                            width: 100%;
+                        }
+                        
+                        #menu-icon {
+                            font-size: 25px;
+                            cursor: pointer;
+                            z-index: 10001;
+                            display: none;
+                        }
+                        
+                        .header-btn a {
+                            padding: 10px 20px;
+                            color: var(--text-color);
+                            font-weight: 500;
+                        }
+                        
+                        .header-btn .Sign-In {
+                            background-color: #797fbd;
+                            color: white;
+                            border-radius: 0.5rem;
+                        }
+                        
+                        .header-btn .Sign-In:hover {
+                            background-color: #888bad;
+                        }
+                        
+                        .header-btn .Sign-In {
+                            background-color: #888bad;
+                            color: white;
+                            border-radius: 0.5rem;
+                        }
+                        
+                        .Signin-container {
+                            display: flex;
+                            height: 100px;
+                            width: 100%;
+                            margin: 260px 40px 20px 40px;
+                            color: black;
+                            display: flex;
+                            justify-content: center;
+                            /* border: solid black; */
+                        }
+                        
+                        .Sign-up {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 12px 20px;
+                            margin: 8px 0;
+                            box-sizing: border-box;
+                            border-radius: 9px;
+                        }
+                        
+                        .password {
+                            padding: 10px 34px;
+                            border: none;
+                            /* border-radius: 0.5rem; */
+                            color: black;
+                            background: white;
+                            font-size: 1rem;
+                            font-weight: 500;
+                            margin: 8px 0;
+                            box-sizing: border-box;
+                            border: 2px solid black;
+                            border-radius: 4px;
+                        }
+                        
+                        .email {
+                            padding: 10px 34px;
+                            border: none;
+                            /* border-radius: 0.5rem; */
+                            background: white;
+                            color: black;
+                            font-size: 1rem;
+                            font-weight: 500;
+                            margin: 8px 0;
+                            box-sizing: border-box;
+                            border: 2px solid black;
+                            border-radius: 4px;
+                        }
+                        
+                        .confirmpassword {
+                            padding: 10px 34px;
+                            border: none;
+                            /* border-radius: 2rem; */
+                            background: white;
+                            color: black;
+                            font-size: 1rem;
+                            font-weight: 500;
+                            margin: 8px 0;
+                            box-sizing: border-box;
+                            border: 2px solid black;
+                            border-radius: 4px;
+                        }
+                        
+                        .Button {
+                            flex: 1 1 7rem;
+                            padding: 10px 34px;
+                            border: none;
+                            /* border-radius: 0.5rem; */
+                            background: chocolate;
+                            color: #fff;
+                            font-size: 1rem;
+                            font-weight: 500;
+                            margin: 8px 0;
+                            box-sizing: border-box;
+                            border: 2px solid black;
+                            border-radius: 4px;
+                            font-style: bold;
+                        }
+                        
+                        .Button:hover {
+                            background: rgb(230, 163, 115);
+                        }
